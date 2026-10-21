@@ -3,7 +3,7 @@
   "configVersion": 1,
   "refreshIntervalHours": 12,
   "monetizationEnabled": false,
-  "latestVersion": "2.1.20",
+  "latestVersion": "2.1.10",
   "forceUpdateRequired": false,
   "plans": {
     "free": {
