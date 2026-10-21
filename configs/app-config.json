@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "configVersion": 1,
+  "refreshIntervalHours": 12,
+  "monetizationEnabled": false,
+  "plans": {
+    "free": {
+      "maxProjects": 2,
+      "maxIssuesPerProject": 5
+    },
+    "premium": {
+      "maxProjects": null,
+      "maxIssuesPerProject": null
+    }
+  },
+  "features": {
+    "cloudSync": {
+      "enabled": true,
+      "requiresPremium": false
+    },
+    "pdfExport": {
+      "enabled": true,
+      "requiresPremium": false
+    },
+    "reportCustomization": {
+      "enabled": true,
+      "requiresPremium": false
+    },
+    "imageAnnotation": {
+      "enabled": true,
+      "requiresPremium": false
+    },
+    "projectImportExport": {
+      "enabled": true,
+      "requiresPremium": false
+    },
+    "voiceInput": {
+      "enabled": true,
+      "requiresPremium": false
+    }
+  },
+  "announcement": {
+    "enabled": false,
+    "id": null,
+    "title": "",
+    "message": ""
+  }
+}
