@@ -4,7 +4,7 @@
   "refreshIntervalHours": 12,
   "monetizationEnabled": false,
   "latestVersion": "2.1.20",
-  "forceUpdateRequired": true,
+  "forceUpdateRequired": false,
   "plans": {
     "free": {
       "maxProjects": 2,
