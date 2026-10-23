@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "configVersion": 1,
-  "refreshIntervalHours": 12,
-  "monetizationEnabled": false,
-  "latestVersion": "2.1.10",
+  "refreshIntervalHours": 1,
+  "monetizationEnabled": true,
+  "latestVersion": "2.1.15",
   "forceUpdateRequired": false,
   "plans": {
     "free": {
-      "maxProjects": 2,
-      "maxIssuesPerProject": 5
+      "maxProjects": null,
+      "maxIssuesPerProject": null
     },
     "premium": {
       "maxProjects": null,
@@ -18,7 +18,7 @@
   "features": {
     "cloudSync": {
       "enabled": true,
-      "requiresPremium": false
+      "requiresPremium": true
     },
     "pdfExport": {
       "enabled": true,
