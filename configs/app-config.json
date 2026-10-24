@@ -21,8 +21,8 @@
   },
   "features": {
     "cloudSync": {
-      "enabled": true,
-      "requiresPremium": false
+      "enabled": false,
+      "requiresPremium": true
     },
     "pdfExport": {
       "enabled": true,
