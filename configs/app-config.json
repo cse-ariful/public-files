@@ -5,6 +5,10 @@
   "monetizationEnabled": false,
   "latestVersion": "2.1.15",
   "forceUpdateRequired": false,
+  "subscription": {
+    "skuids": ["monthly_premium", "yearly_premium"],
+    "recommendation": "monthly_premium"
+  },
   "plans": {
     "free": {
       "maxProjects": null,
@@ -17,8 +21,8 @@
   },
   "features": {
     "cloudSync": {
-      "enabled": false,
-      "requiresPremium": true
+      "enabled": true,
+      "requiresPremium": false
     },
     "pdfExport": {
       "enabled": true,
