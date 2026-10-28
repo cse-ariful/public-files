@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "configVersion": 1,
   "refreshIntervalHours": 12,
-  "monetizationEnabled": false,
+  "monetizationEnabled": true,
   "latestVersion": "2.1.10",
   "forceUpdateRequired": false,
   "plans": {
@@ -18,7 +18,7 @@
   "features": {
     "cloudSync": {
       "enabled": true,
-      "requiresPremium": false
+      "requiresPremium": true
     },
     "pdfExport": {
       "enabled": true,
