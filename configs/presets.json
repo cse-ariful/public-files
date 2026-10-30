@@ -1,1 +1,337 @@
-
+[
+  {
+    "configuration": {
+      "id": "1B9ACB72-23BE-52EC-BB98-EC1D8B1D5E65",
+      "title": "Quick Audit",
+      "description": "A photo-first inspection for recording issues, assigning actions, and tracking completion.",
+      "sections": [
+        {
+          "id": "project",
+          "options": {
+            "title": "Project Info",
+            "isRepeatable": false
+          },
+          "fields": [
+            {
+              "id": "title",
+              "title": "Project title",
+              "type": "Text",
+              "isRequired": true
+            },
+            {
+              "id": "reference",
+              "title": "Reference",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "location",
+              "title": "Site address",
+              "type": "Location",
+              "isRequired": false
+            },
+            {
+              "id": "client",
+              "title": "Client",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "date",
+              "title": "Inspection date",
+              "type": "Date",
+              "isRequired": false
+            }
+          ]
+        },
+        {
+          "id": "issues",
+          "options": {
+            "title": "Observations",
+            "isRepeatable": true
+          },
+          "fields": [
+            {
+              "id": "title",
+              "title": "Title",
+              "type": "Text",
+              "isRequired": true
+            },
+            {
+              "id": "area",
+              "title": "Area / room",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "description",
+              "title": "Description",
+              "type": "Long text",
+              "isRequired": false
+            },
+            {
+              "id": "assignee",
+              "title": "Assigned to",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "priority",
+              "title": "Priority",
+              "type": "Choice",
+              "isRequired": false,
+              "customListID": "AF8DAA6E-040B-516E-B07B-682E9D1B2AF0"
+            },
+            {
+              "id": "status",
+              "title": "Status",
+              "type": "Choice",
+              "isRequired": false,
+              "customListID": "ED2AC649-7D4C-5D1F-9BCC-27FD5D5A26E0"
+            },
+            {
+              "id": "photos",
+              "title": "Photos",
+              "type": "Photos",
+              "isRequired": false,
+              "annotate": true,
+              "timestamp": true,
+              "gps": true
+            }
+          ]
+        },
+        {
+          "id": "summary",
+          "options": {
+            "title": "Summary",
+            "isRepeatable": false
+          },
+          "fields": [
+            {
+              "id": "summary",
+              "title": "Summary",
+              "type": "Long text",
+              "isRequired": false
+            },
+            {
+              "id": "limitations",
+              "title": "Limitations / areas not inspected",
+              "type": "Long text",
+              "isRequired": false
+            },
+            {
+              "id": "next_date",
+              "title": "Next inspection date",
+              "type": "Date",
+              "isRequired": false
+            }
+          ]
+        }
+      ]
+    },
+    "lists": [
+      {
+        "id": "AF8DAA6E-040B-516E-B07B-682E9D1B2AF0",
+        "name": "Quick Audit — Priority",
+        "options": [
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ]
+      },
+      {
+        "id": "ED2AC649-7D4C-5D1F-9BCC-27FD5D5A26E0",
+        "name": "Quick Audit — Status",
+        "options": [
+          "Open",
+          "In progress",
+          "Resolved",
+          "Closed"
+        ]
+      }
+    ]
+  },
+  {
+    "configuration": {
+      "id": "8392C2FA-1DEE-5226-845F-2288F3B2DE09",
+      "title": "New Build Handover",
+      "description": "Record room-by-room defects and outstanding work before a property handover.",
+      "sections": [
+        {
+          "id": "project",
+          "options": {
+            "title": "Project Info",
+            "isRepeatable": false
+          },
+          "fields": [
+            {
+              "id": "title",
+              "title": "Project title",
+              "type": "Text",
+              "isRequired": true
+            },
+            {
+              "id": "reference",
+              "title": "Reference",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "location",
+              "title": "Site address",
+              "type": "Location",
+              "isRequired": false
+            },
+            {
+              "id": "client",
+              "title": "Client",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "date",
+              "title": "Inspection date",
+              "type": "Date",
+              "isRequired": false
+            }
+          ]
+        },
+        {
+          "id": "issues",
+          "options": {
+            "title": "Observations",
+            "isRepeatable": true
+          },
+          "fields": [
+            {
+              "id": "title",
+              "title": "Title",
+              "type": "Text",
+              "isRequired": true
+            },
+            {
+              "id": "room",
+              "title": "Room / area",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "trade",
+              "title": "Trade",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "description",
+              "title": "Defect description",
+              "type": "Long text",
+              "isRequired": false
+            },
+            {
+              "id": "assignee",
+              "title": "Assigned to",
+              "type": "Text",
+              "isRequired": false
+            },
+            {
+              "id": "due_date",
+              "title": "Target completion",
+              "type": "Date",
+              "isRequired": false
+            },
+            {
+              "id": "category",
+              "title": "Category",
+              "type": "Choice",
+              "isRequired": false,
+              "customListID": "F1F80391-D0E5-571C-8B2C-76FE6512DA84"
+            },
+            {
+              "id": "priority",
+              "title": "Priority",
+              "type": "Choice",
+              "isRequired": false,
+              "customListID": "9DBABF2B-A9AB-524C-8CD5-66AA3006E6F7"
+            },
+            {
+              "id": "status",
+              "title": "Status",
+              "type": "Choice",
+              "isRequired": false,
+              "customListID": "72B5A8CF-29FA-53CE-BDF8-8BA2DC8E6ABA"
+            },
+            {
+              "id": "photos",
+              "title": "Photos",
+              "type": "Photos",
+              "isRequired": false,
+              "annotate": true,
+              "timestamp": true,
+              "gps": true
+            }
+          ]
+        },
+        {
+          "id": "summary",
+          "options": {
+            "title": "Summary",
+            "isRepeatable": false
+          },
+          "fields": [
+            {
+              "id": "summary",
+              "title": "Summary",
+              "type": "Long text",
+              "isRequired": false
+            },
+            {
+              "id": "limitations",
+              "title": "Limitations / areas not inspected",
+              "type": "Long text",
+              "isRequired": false
+            },
+            {
+              "id": "next_date",
+              "title": "Next inspection date",
+              "type": "Date",
+              "isRequired": false
+            }
+          ]
+        }
+      ]
+    },
+    "lists": [
+      {
+        "id": "F1F80391-D0E5-571C-8B2C-76FE6512DA84",
+        "name": "New Build Handover — Category",
+        "options": [
+          "Walls and ceilings",
+          "Floors and finishes",
+          "Doors and windows",
+          "Fixtures and fittings"
+        ]
+      },
+      {
+        "id": "9DBABF2B-A9AB-524C-8CD5-66AA3006E6F7",
+        "name": "New Build Handover — Priority",
+        "options": [
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ]
+      },
+      {
+        "id": "72B5A8CF-29FA-53CE-BDF8-8BA2DC8E6ABA",
+        "name": "New Build Handover — Status",
+        "options": [
+          "Open",
+          "In progress",
+          "Resolved",
+          "Closed"
+        ]
+      }
+    ]
+  }
+]
