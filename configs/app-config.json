@@ -50,5 +50,25 @@
     "id": null,
     "title": "",
     "message": ""
+  },
+  "review": {
+    "enabled": true,
+    "bannerEnabled": true,
+    "feedbackEnabled": true,
+    "appStoreEnabled": true,
+    "minimumAppStoreRating": 5,
+    "minimumInstallDays": 7,
+    "minimumHomeVisits": 3,
+    "bannerCooldownDays": 7,
+    "dismissCooldownDays": 7,
+    "feedbackCooldownDays": 21,
+    "appStoreCooldownDays": 180,
+    "title": "How is InspectionPro working for you?",
+    "message": "Tap a star to rate your experience. Your feedback helps us improve.",
+    "followUpTitle": "How are your inspections going?",
+    "followUpMessage": "We're working to make InspectionPro better. How is it working for you now?",
+    "updatedMessage": "You've updated InspectionPro since your last rating. Is your inspection workflow working better now?",
+    "feedbackTitle": "What could we do better?",
+    "feedbackMessage": "Tell us what happened or what would make your inspections easier."
   }
 }
