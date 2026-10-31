@@ -7,8 +7,8 @@
   "forceUpdateRequired": false,
   "plans": {
     "free": {
-      "maxProjects": 2,
-      "maxIssuesPerProject": 5
+      "maxProjects": 120,
+      "maxIssuesPerProject": 150
     },
     "premium": {
       "maxProjects": null,
