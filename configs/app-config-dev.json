@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "configVersion": 1,
   "refreshIntervalHours": 12,
-  "monetizationEnabled": true,
+  "monetizationEnabled": false,
   "latestVersion": "2.1.17",
   "forceUpdateRequired": false,
   "plans": {
