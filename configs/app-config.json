@@ -3,8 +3,8 @@
   "configVersion": 1,
   "refreshIntervalHours": 1,
   "monetizationEnabled": false,
-  "latestVersion": "2.1.16",
-  "forceUpdateRequired": false,
+  "latestVersion": "2.1.17",
+  "forceUpdateRequired": true,
   "subscription": {
     "skuids": ["monthly_premium", "yearly_premium"],
     "recommendation": "monthly_premium"
