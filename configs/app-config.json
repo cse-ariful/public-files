@@ -7,7 +7,8 @@
   "forceUpdateRequired": true,
   "subscription": {
     "skuids": ["monthly_premium", "yearly_premium"],
-    "recommendation": "monthly_premium"
+    "recommendation": "monthly_premium",
+    "freeUsageDays": 15
   },
   "plans": {
     "free": {
