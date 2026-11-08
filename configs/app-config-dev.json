@@ -1,14 +1,19 @@
 {
   "schemaVersion": 1,
   "configVersion": 1,
-  "refreshIntervalHours": 12,
+  "refreshIntervalHours": 1,
   "monetizationEnabled": false,
-  "latestVersion": "2.1.17",
-  "forceUpdateRequired": false,
+  "latestVersion": "2.1.18",
+  "forceUpdateRequired": true,
+  "subscription": {
+    "skuids": ["monthly_premium", "yearly_premium"],
+    "recommendation": "monthly_premium",
+    "freeUsageDays": 1
+  },
   "plans": {
     "free": {
-      "maxProjects": 120,
-      "maxIssuesPerProject": 150
+      "maxProjects": null,
+      "maxIssuesPerProject": null
     },
     "premium": {
       "maxProjects": null,
@@ -17,7 +22,7 @@
   },
   "features": {
     "cloudSync": {
-      "enabled": true,
+      "enabled": false,
       "requiresPremium": true
     },
     "pdfExport": {
@@ -52,13 +57,13 @@
     "bannerEnabled": true,
     "feedbackEnabled": true,
     "appStoreEnabled": true,
-    "minimumAppStoreRating": 5,
+    "minimumAppStoreRating": 4,
     "minimumInstallDays": 3,
-    "minimumHomeVisits": 2,
-    "bannerCooldownDays": 1,
-    "dismissCooldownDays": 1,
-    "feedbackCooldownDays": 1,
-    "appStoreCooldownDays": 1,
+    "minimumHomeVisits": 3,
+    "bannerCooldownDays": 7,
+    "dismissCooldownDays": 7,
+    "feedbackCooldownDays": 21,
+    "appStoreCooldownDays": 180,
     "title": "How is InspectionPro working for you?",
     "message": "Tap a star to rate your experience. Your feedback helps us improve.",
     "followUpTitle": "How are your inspections going?",
@@ -66,5 +71,5 @@
     "updatedMessage": "You've updated InspectionPro since your last rating. Is your inspection workflow working better now?",
     "feedbackTitle": "What could we do better?",
     "feedbackMessage": "Tell us what happened or what would make your inspections easier."
-  }  
+  }
 }
