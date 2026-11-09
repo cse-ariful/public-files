@@ -8,7 +8,7 @@
   "subscription": {
     "skuids": ["monthly_premium", "yearly_premium"],
     "recommendation": "monthly_premium",
-    "freeUsageDays": 15,
+    "freeUsageDays": -1,
     "freeTierStartSheetTriggerFeature": "report_output",
     "freeTierStartSheetTriggerUsageCount": 2
   },
