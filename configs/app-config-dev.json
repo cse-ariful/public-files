@@ -3,12 +3,12 @@
   "configVersion": 1,
   "refreshIntervalHours": 1,
   "monetizationEnabled": false,
-  "latestVersion": "2.1.18",
+  "latestVersion": "2.1.19",
   "forceUpdateRequired": true,
   "subscription": {
     "skuids": ["monthly_premium", "yearly_premium"],
     "recommendation": "monthly_premium",
-    "freeUsageDays": 1,
+    "freeUsageDays": 15,
     "freeTierStartSheetTriggerFeature": "report_output",
     "freeTierStartSheetTriggerUsageCount": 1
   },
