@@ -73,5 +73,21 @@
     "updatedMessage": "You've updated InspectionPro since your last rating. Is your inspection workflow working better now?",
     "feedbackTitle": "What could we do better?",
     "feedbackMessage": "Tell us what happened or what would make your inspections easier."
-  }
+  },
+  "survey": {
+    "enabled": false,
+    "version": 0,
+    "audience": "all",
+    "action": "feature_request",
+    "actionTitle": "Request a feature",
+    "timeOfDay": "all",
+    "minimumUserAgeDays": 0,
+    "title": "Have an idea?",
+    "message": "Tell us what you’d like to see in InspectionPro."
+  },
+   "featureRequestSuggestions": [
+    "More report templates",
+    "Team collaboration",
+    "Inspection reminders"
+  ]
 }
