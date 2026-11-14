@@ -74,5 +74,13 @@
     "updatedMessage": "You've updated InspectionPro since your last rating. Is your inspection workflow working better now?",
     "feedbackTitle": "What could we do better?",
     "feedbackMessage": "Tell us what happened or what would make your inspections easier."
+  },
+  "survey": {
+    "enabled": true,
+    "version": 1,
+    "audience": "all",
+    "title": "Help us improve",
+    "message": "Share your feedback in a short survey.",
+    "url": "https://example.com/survey"
   }
 }
