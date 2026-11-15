@@ -86,8 +86,10 @@
     "message": "Tell us what you’d like to see in InspectionPro."
   },
    "featureRequestSuggestions": [
-    "More report templates",
-    "Team collaboration",
-    "Inspection reminders"
+  "Sync inspections across devices",
+  "Web & Desktop app for editing and managing inspections",
+  "Share inspections with my team",
+  "Reminders for upcoming inspections",
+   "More report designs"
   ]
 }
