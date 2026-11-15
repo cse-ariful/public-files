@@ -79,17 +79,17 @@
     "version": 0,
     "audience": "all",
     "action": "feature_request",
-    "actionTitle": "Request a feature",
+    "actionTitle": "Provide feedback",
     "timeOfDay": "all",
     "minimumUserAgeDays": 0,
-    "title": "Have an idea?",
-    "message": "Tell us what you’d like to see in InspectionPro."
+    "title": "Let us know what is missing?",
+    "message": "We go through every request our user sent to us. Let us know about anything you see is missing or incomplete we will check it and add in the next versions. Thanks"
   },
    "featureRequestSuggestions": [
-  "Sync inspections across devices",
-  "Web & Desktop app for editing and managing inspections",
-  "Share inspections with my team",
-  "Reminders for upcoming inspections",
-   "More report designs"
+    "Sync inspections across devices",
+    "Web & Desktop app for editing and managing inspections",
+    "Share inspections with my team",
+    "Reminders for upcoming inspections",
+    "More report designs"
   ]
 }
